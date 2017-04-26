@@ -15,7 +15,7 @@ public class NumberUtil {
     String unit = "万";
     double newNum = num / 10000.0;
 
-    String numStr = String.format("%." + 1 + "f", newNum);
+    String numStr = String.format("%." + 1 + "forwarded", newNum);
     return numStr + unit;
   }
 }

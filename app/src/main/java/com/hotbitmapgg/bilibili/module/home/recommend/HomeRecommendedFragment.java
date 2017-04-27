@@ -40,227 +40,227 @@ import rx.schedulers.Schedulers;
  */
 public class HomeRecommendedFragment extends RxLazyFragment {
 
-  @BindView(R.id.swipe_refresh_layout)
-  SwipeRefreshLayout mSwipeRefreshLayout;
+    @BindView(R.id.swipe_refresh_layout)
+    SwipeRefreshLayout mSwipeRefreshLayout;
 
-  @BindView(R.id.recycle)
-  RecyclerView mRecyclerView;
+    @BindView(R.id.recycle)
+    RecyclerView mRecyclerView;
 
-  @BindView(R.id.empty_layout)
-  CustomEmptyView mCustomEmptyView;
+    @BindView(R.id.empty_layout)
+    CustomEmptyView mCustomEmptyView;
 
-  private List<RecommendInfo.ResultBean> results = new ArrayList<>();
+    private List<RecommendInfo.ResultBean> results = new ArrayList<>();
 
-  private List<BannerEntity> banners = new ArrayList<>();
+    private List<BannerEntity> banners = new ArrayList<>();
 
-  private List<RecommendBannerInfo.DataBean> recommendBanners = new ArrayList<>();
+    private List<RecommendBannerInfo.DataBean> recommendBanners = new ArrayList<>();
 
-  private boolean mIsRefreshing = false;
+    private boolean mIsRefreshing = false;
 
-  private SectionedRecyclerViewAdapter mSectionedAdapter;
-
-
-  public static HomeRecommendedFragment newInstance() {
-
-    return new HomeRecommendedFragment();
-  }
+    private SectionedRecyclerViewAdapter mSectionedAdapter;
 
 
-  @Override
-  public int getLayoutResId() {
+    public static HomeRecommendedFragment newInstance() {
 
-    return R.layout.fragment_home_recommended;
-  }
-
-
-  @Override
-  public void finishCreateView(Bundle state) {
-
-    isPrepared = true;
-    lazyLoad();
-  }
-
-
-  @Override
-  protected void lazyLoad() {
-
-    if (!isPrepared || !isVisible) {
-      return;
+        return new HomeRecommendedFragment();
     }
 
-    initRefreshLayout();
-    initRecyclerView();
-    isPrepared = false;
-  }
+
+    @Override
+    public int getLayoutResId() {
+
+        return R.layout.fragment_home_recommended;
+    }
 
 
-  @Override
-  protected void initRecyclerView() {
+    @Override
+    public void finishCreateView(Bundle state) {
 
-    mSectionedAdapter = new SectionedRecyclerViewAdapter();
-    GridLayoutManager mLayoutManager = new GridLayoutManager(getActivity(), 2);
-    mLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
+        isPrepared = true;
+        lazyLoad();
+    }
 
-      @Override
-      public int getSpanSize(int position) {
 
-        switch (mSectionedAdapter.getSectionItemViewType(position)) {
-          case SectionedRecyclerViewAdapter.VIEW_TYPE_HEADER:
-            return 2;
+    @Override
+    protected void lazyLoad() {
 
-          case SectionedRecyclerViewAdapter.VIEW_TYPE_FOOTER:
-            return 2;
-
-          default:
-            return 1;
+        if (!isPrepared || !isVisible) {
+            return;
         }
-      }
-    });
-    mRecyclerView.setLayoutManager(mLayoutManager);
-    mRecyclerView.setAdapter(mSectionedAdapter);
-    setRecycleNoScroll();
-  }
+
+        initRefreshLayout();
+        initRecyclerView();
+        isPrepared = false;
+    }
 
 
-  @Override
-  protected void initRefreshLayout() {
+    @Override
+    protected void initRecyclerView() {
 
-    mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
-    mSwipeRefreshLayout.post(() -> {
+        mSectionedAdapter = new SectionedRecyclerViewAdapter();
+        GridLayoutManager mLayoutManager = new GridLayoutManager(getActivity(), 2);
+        mLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
 
-      mSwipeRefreshLayout.setRefreshing(true);
-      mIsRefreshing = true;
-      loadData();
-    });
+            @Override
+            public int getSpanSize(int position) {
 
-    mSwipeRefreshLayout.setOnRefreshListener(() -> {
+                switch (mSectionedAdapter.getSectionItemViewType(position)) {
+                    case SectionedRecyclerViewAdapter.VIEW_TYPE_HEADER:
+                        return 2;
 
-      clearData();
-      loadData();
-    });
-  }
+                    case SectionedRecyclerViewAdapter.VIEW_TYPE_FOOTER:
+                        return 2;
 
-
-  @Override
-  protected void loadData() {
-
-    RetrofitHelper.getBiliAppAPI()
-        .getRecommendedBannerInfo()
-        .compose(bindToLifecycle())
-        .map(RecommendBannerInfo::getData)
-        .flatMap(new Func1<List<RecommendBannerInfo.DataBean>, Observable<RecommendInfo>>() {
-
-          @Override
-          public Observable<RecommendInfo> call(List<RecommendBannerInfo.DataBean> dataBeans) {
-
-            recommendBanners.addAll(dataBeans);
-            return RetrofitHelper.getBiliAppAPI().getRecommendedInfo();
-          }
-        })
-        .compose(bindToLifecycle())
-        .map(RecommendInfo::getResult)
-        .subscribeOn(Schedulers.io())
-        .observeOn(AndroidSchedulers.mainThread())
-        .subscribe(resultBeans -> {
-          results.addAll(resultBeans);
-          finishTask();
-        }, throwable -> {
-          initEmptyView();
+                    default:
+                        return 1;
+                }
+            }
         });
-  }
-
-
-  /**
-   * 设置轮播banners
-   */
-  private void convertBanner() {
-
-    Observable.from(recommendBanners)
-        .compose(bindToLifecycle())
-        .forEach(dataBean -> banners.add(new BannerEntity(dataBean.getValue(),
-            dataBean.getTitle(), dataBean.getImage())));
-  }
-
-
-  @Override
-  protected void finishTask() {
-
-    mSwipeRefreshLayout.setRefreshing(false);
-    mIsRefreshing = false;
-    hideEmptyView();
-    convertBanner();
-    mSectionedAdapter.addSection(new HomeRecommendBannerSection(banners));
-
-    int size = results.size();
-    for (int i = 0; i < size; i++) {
-      String type = results.get(i).getType();
-      if (!TextUtils.isEmpty(type)) {
-        switch (type) {
-          case ConstantUtil.TYPE_TOPIC:
-            //话题
-            mSectionedAdapter.addSection(new HomeRecommendTopicSection(getActivity(),
-                results.get(i).getBody().get(0).getCover(),
-                results.get(i).getBody().get(0).getTitle(),
-                results.get(i).getBody().get(0).getParam()));
-            break;
-          case ConstantUtil.TYPE_ACTIVITY_CENTER:
-            //活动中心
-            mSectionedAdapter.addSection(new HomeRecommendActivityCenterSection(
-                getActivity(),
-                results.get(i).getBody()));
-            break;
-          default:
-            mSectionedAdapter.addSection(new HomeRecommendedSection(
-                getActivity(),
-                results.get(i).getHead().getTitle(),
-                results.get(i).getType(),
-                results.get(1).getHead().getCount(),
-                results.get(i).getBody()));
-            break;
-        }
-      }
-
-      String style = results.get(i).getHead().getStyle();
-      if (style.equals(ConstantUtil.STYLE_PIC)) {
-        mSectionedAdapter.addSection(new HomeRecommendPicSection(getActivity(),
-            results.get(i).getBody().get(0).getCover(),
-            results.get(i).getBody().get(0).getParam()));
-      }
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setAdapter(mSectionedAdapter);
+        setRecycleNoScroll();
     }
-    mSectionedAdapter.notifyDataSetChanged();
-  }
 
 
-  public void initEmptyView() {
+    @Override
+    protected void initRefreshLayout() {
 
-    mSwipeRefreshLayout.setRefreshing(false);
-    mCustomEmptyView.setVisibility(View.VISIBLE);
-    mRecyclerView.setVisibility(View.GONE);
-    mCustomEmptyView.setEmptyImage(R.drawable.img_tips_error_load_error);
-    mCustomEmptyView.setEmptyText("加载失败~(≧▽≦)~啦啦啦.");
-    SnackbarUtil.showMessage(mRecyclerView, "数据加载失败,请重新加载或者检查网络是否链接");
-  }
+        mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
+        mSwipeRefreshLayout.post(() -> {
 
+            mSwipeRefreshLayout.setRefreshing(true);
+            mIsRefreshing = true;
+            loadData();
+        });
 
-  public void hideEmptyView() {
+        mSwipeRefreshLayout.setOnRefreshListener(() -> {
 
-    mCustomEmptyView.setVisibility(View.GONE);
-    mRecyclerView.setVisibility(View.VISIBLE);
-  }
-
-
-  private void clearData() {
-
-    banners.clear();
-    recommendBanners.clear();
-    results.clear();
-    mIsRefreshing = true;
-    mSectionedAdapter.removeAllSections();
-  }
+            clearData();
+            loadData();
+        });
+    }
 
 
-  private void setRecycleNoScroll() {
+    @Override
+    protected void loadData() {
 
-    mRecyclerView.setOnTouchListener((v, event) -> mIsRefreshing);
-  }
+        RetrofitHelper.getBiliAppAPI()
+            .getRecommendedBannerInfo()
+            .compose(bindToLifecycle())
+            .map(RecommendBannerInfo::getData)
+            .flatMap(new Func1<List<RecommendBannerInfo.DataBean>, Observable<RecommendInfo>>() {
+
+                @Override
+                public Observable<RecommendInfo> call(List<RecommendBannerInfo.DataBean> dataBeans) {
+
+                    recommendBanners.addAll(dataBeans);
+                    return RetrofitHelper.getBiliAppAPI().getRecommendedInfo();
+                }
+            })
+            .compose(bindToLifecycle())
+            .map(RecommendInfo::getResult)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(resultBeans -> {
+                results.addAll(resultBeans);
+                finishTask();
+            }, throwable -> {
+                initEmptyView();
+            });
+    }
+
+
+    /**
+     * 设置轮播banners
+     */
+    private void convertBanner() {
+
+        Observable.from(recommendBanners)
+            .compose(bindToLifecycle())
+            .forEach(dataBean -> banners.add(new BannerEntity(dataBean.getValue(),
+                dataBean.getTitle(), dataBean.getImage())));
+    }
+
+
+    @Override
+    protected void finishTask() {
+
+        mSwipeRefreshLayout.setRefreshing(false);
+        mIsRefreshing = false;
+        hideEmptyView();
+        convertBanner();
+        mSectionedAdapter.addSection(new HomeRecommendBannerSection(banners));
+
+        int size = results.size();
+        for (int i = 0; i < size; i++) {
+            String type = results.get(i).getType();
+            if (!TextUtils.isEmpty(type)) {
+                switch (type) {
+                    case ConstantUtil.TYPE_TOPIC:
+                        //话题
+                        mSectionedAdapter.addSection(new HomeRecommendTopicSection(getActivity(),
+                            results.get(i).getBody().get(0).getCover(),
+                            results.get(i).getBody().get(0).getTitle(),
+                            results.get(i).getBody().get(0).getParam()));
+                        break;
+                    case ConstantUtil.TYPE_ACTIVITY_CENTER:
+                        //活动中心
+                        mSectionedAdapter.addSection(new HomeRecommendActivityCenterSection(
+                            getActivity(),
+                            results.get(i).getBody()));
+                        break;
+                    default:
+                        mSectionedAdapter.addSection(new HomeRecommendedSection(
+                            getActivity(),
+                            results.get(i).getHead().getTitle(),
+                            results.get(i).getType(),
+                            results.get(1).getHead().getCount(),
+                            results.get(i).getBody()));
+                        break;
+                }
+            }
+
+            String style = results.get(i).getHead().getStyle();
+            if (style.equals(ConstantUtil.STYLE_PIC)) {
+                mSectionedAdapter.addSection(new HomeRecommendPicSection(getActivity(),
+                    results.get(i).getBody().get(0).getCover(),
+                    results.get(i).getBody().get(0).getParam()));
+            }
+        }
+        mSectionedAdapter.notifyDataSetChanged();
+    }
+
+
+    public void initEmptyView() {
+
+        mSwipeRefreshLayout.setRefreshing(false);
+        mCustomEmptyView.setVisibility(View.VISIBLE);
+        mRecyclerView.setVisibility(View.GONE);
+        mCustomEmptyView.setEmptyImage(R.drawable.img_tips_error_load_error);
+        mCustomEmptyView.setEmptyText("加载失败~(≧▽≦)~啦啦啦.");
+        SnackbarUtil.showMessage(mRecyclerView, "数据加载失败,请重新加载或者检查网络是否链接");
+    }
+
+
+    public void hideEmptyView() {
+
+        mCustomEmptyView.setVisibility(View.GONE);
+        mRecyclerView.setVisibility(View.VISIBLE);
+    }
+
+
+    private void clearData() {
+
+        banners.clear();
+        recommendBanners.clear();
+        results.clear();
+        mIsRefreshing = true;
+        mSectionedAdapter.removeAllSections();
+    }
+
+
+    private void setRecycleNoScroll() {
+
+        mRecyclerView.setOnTouchListener((v, event) -> mIsRefreshing);
+    }
 }

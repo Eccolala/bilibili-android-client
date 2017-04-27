@@ -21,16 +21,6 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <Button
-                android:id="@+id/btn_forgetPwd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:background="@null"
-                android:layout_gravity="right"
-                android:textColor="@color/white"
-                android:text="忘记密码？"/>
-
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
@@ -79,9 +69,9 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:drawablePadding="@dimen/default_general_margin"
-                android:drawableStart="@drawable/ic_username"
+                android:drawableStart="@drawable/ic_cellphone"
                 android:ellipsize="start"
-                android:hint="@string/login_hint_account"
+                android:hint="@string/sign_hint_account"
                 android:inputType="textVisiblePassword"
                 android:maxLines="1"
                 android:textColor="@color/black_80"
@@ -99,63 +89,29 @@
                 android:visibility="gone"/>
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/line_height"
-            android:background="@color/line_bg"/>
-
-        <EditText
-            android:id="@+id/et_password"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/action_bar_default_height"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginStart="@dimen/default_small_padding"
-            android:background="@android:color/transparent"
-            android:drawablePadding="@dimen/default_general_margin"
-            android:drawableStart="@drawable/ic_lock"
-            android:hint="@string/login_hint_password"
-            android:inputType="textPassword"
-            android:maxLines="1"
-            android:textColor="@color/black_80"
-            android:textColorHint="@color/gray_20"
-            android:textSize="@dimen/default_medium_text_size"/>
     </LinearLayout>
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_sign"
         android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_marginBottom="@dimen/default_general_margin"
+        android:layout_marginTop="@dimen/default_long_margin"
+        android:background="@drawable/sign_btn"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/default_general_margin"
+        android:layout_marginRight="@dimen/default_general_margin"
+        android:text="@string/identify"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/default_medium_text_size"/>
+
+    <TextView
+        android:id="@+id/txt_exception"
+        android:textColor="@color/red_dark"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/normal_txt"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_sign"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/login_button_height"
-            android:layout_weight="1"
-            android:layout_marginBottom="@dimen/default_general_margin"
-            android:layout_marginLeft="@dimen/default_general_margin"
-            android:layout_marginRight="@dimen/default_general_margin"
-            android:layout_marginTop="@dimen/default_long_margin"
-            android:background="@drawable/sign_btn"
-            android:gravity="center"
-            android:text="@string/sign"
-            android:textColor="@color/colorPrimary"
-            android:textSize="@dimen/default_medium_text_size"/>
-
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/login_button_height"
-            android:layout_weight="1"
-            android:layout_marginBottom="@dimen/default_general_margin"
-            android:layout_marginLeft="@dimen/default_general_margin"
-            android:layout_marginRight="@dimen/default_general_margin"
-            android:layout_marginTop="@dimen/default_long_margin"
-            android:background="@drawable/corner_btn"
-            android:gravity="center"
-            android:text="@string/login"
-            android:textColor="@color/white"
-            android:textSize="@dimen/default_medium_text_size"/>
-
-    </LinearLayout>
-
+        android:layout_marginTop="@dimen/default_long_margin"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
 </LinearLayout>

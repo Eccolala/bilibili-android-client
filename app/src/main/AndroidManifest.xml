@@ -47,7 +47,12 @@
 
         <!-- 登录界面 -->
         <activity
-            android:name="com.hotbitmapgg.bilibili.module.common.LoginActivity"
+            android:name="com.hotbitmapgg.bilibili.module.common.Auth.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 注册界面 -->
+        <activity
+            android:name="com.hotbitmapgg.bilibili.module.common.Auth.SignActivity"
             android:screenOrientation="portrait" />
 
 

@@ -2,6 +2,7 @@ package com.hotbitmapgg.bilibili.module.common;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import com.hotbitmapgg.bilibili.module.common.Auth.LoginActivity;
 import com.hotbitmapgg.bilibili.utils.ConstantUtil;
 import com.hotbitmapgg.bilibili.utils.PreferenceUtil;
 import com.hotbitmapgg.bilibili.utils.SystemUiVisibilityUtil;

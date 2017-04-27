@@ -5,7 +5,7 @@ import butterknife.OnClick;
 import com.hotbitmapgg.bilibili.base.RxLazyFragment;
 import com.hotbitmapgg.bilibili.module.common.AppIntroduceActivity;
 import com.hotbitmapgg.bilibili.module.common.HotBitmapGGInfoActivity;
-import com.hotbitmapgg.bilibili.module.common.LoginActivity;
+import com.hotbitmapgg.bilibili.module.common.Auth.LoginActivity;
 import com.hotbitmapgg.bilibili.module.common.MainActivity;
 import com.hotbitmapgg.bilibili.utils.ConstantUtil;
 import com.hotbitmapgg.bilibili.utils.PreferenceUtil;

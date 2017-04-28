@@ -125,7 +125,10 @@ public class SignActivity extends RxBaseActivity {
      * 检查是否有多次获取验证码的行为
      */
     private void intentSign() {
-
+        if (invalide){
+            VerifyFragment.newInstance().show(getSupportFragmentManager(),"VerifyCode");
+            return;
+        }
     }
 
 

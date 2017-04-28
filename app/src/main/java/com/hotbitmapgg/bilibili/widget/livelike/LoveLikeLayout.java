@@ -22,7 +22,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 /**
- * Designed by guoyx on 16/9/14 21:37
+ * Designed by hcc on 16/9/14 21:37
 
  * <p/>
  * 直播送礼物特效自定义控件

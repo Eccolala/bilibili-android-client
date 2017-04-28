@@ -18,7 +18,7 @@ import android.view.View;
 import com.hotbitmapgg.ohmybilibili.R;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
 
  * <p/>
  * Material design的ProgressBar

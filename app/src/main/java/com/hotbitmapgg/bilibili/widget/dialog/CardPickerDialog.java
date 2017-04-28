@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 /**
- * Designed by guoyx on 16/9/16 13:14
+ * Designed by hcc on 16/9/16 13:14
 
  * <p/>
  * 主题切换选择对话框

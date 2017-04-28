@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/8/6 11:51
+ * Designed by hcc on 16/8/6 11:51
 
  * <p/>
  * 番剧详情番剧推荐adapter

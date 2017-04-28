@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
 
  * <p/>
  * Fragment基类

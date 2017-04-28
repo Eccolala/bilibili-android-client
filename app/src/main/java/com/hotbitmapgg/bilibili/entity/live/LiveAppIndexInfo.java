@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.live;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/10/19 18:31
+ * Designed by hcc on 2016/10/19 18:31
 
  * <p>
  * 直播模型类

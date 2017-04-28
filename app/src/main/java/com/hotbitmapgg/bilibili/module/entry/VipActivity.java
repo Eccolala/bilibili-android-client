@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 /**
- * Designed by guoyx on 2016/10/16 13:49
+ * Designed by hcc on 2016/10/16 13:49
 
  * <p>
  * 大会员界面

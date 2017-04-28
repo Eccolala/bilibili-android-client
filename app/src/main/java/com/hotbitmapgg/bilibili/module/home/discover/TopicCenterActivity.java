@@ -23,7 +23,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 /**
- * Designed by guoyx on 2016/10/3 15:47
+ * Designed by hcc on 2016/10/3 15:47
 
  * <p>
  * 话题中心界面

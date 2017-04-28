@@ -6,7 +6,7 @@ import android.os.Build;
 import android.view.View;
 
 /**
- * Designed by guoyx on 2016/10/31 12:33
+ * Designed by hcc on 2016/10/31 12:33
 
  * <p>
  * StatusBar隐藏显示工具类

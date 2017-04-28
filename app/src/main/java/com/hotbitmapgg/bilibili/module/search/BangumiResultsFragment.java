@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Designed by guoyx on 16/8/29 21:08
+ * Designed by hcc on 16/8/29 21:08
 
  * <p/>
  * 番剧搜索内容列表界面

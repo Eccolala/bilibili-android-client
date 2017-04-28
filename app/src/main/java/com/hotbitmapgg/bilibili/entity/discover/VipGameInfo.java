@@ -1,7 +1,7 @@
 package com.hotbitmapgg.bilibili.entity.discover;
 
 /**
- * Designed by guoyx on 2016/10/31 23:26
+ * Designed by hcc on 2016/10/31 23:26
 
  * <p>
  * 大会员游戏礼包模型类

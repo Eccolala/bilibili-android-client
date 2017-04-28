@@ -29,7 +29,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 2016/10/3 19:01
+ * Designed by hcc on 2016/10/3 19:01
 
  * <p>
  * 活动中心界面

@@ -39,7 +39,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Designed by guoyx on 16/8/27 11:51
+ * Designed by hcc on 16/8/27 11:51
 
  * <p/>
  * 首页推荐界面Section

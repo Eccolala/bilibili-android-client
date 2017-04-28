@@ -24,7 +24,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 /**
- * Designed by guoyx on 2016/11/13 20:11
+ * Designed by hcc on 2016/11/13 20:11
 
  */
 public class BiliDanmukuParser extends BaseDanmakuParser {

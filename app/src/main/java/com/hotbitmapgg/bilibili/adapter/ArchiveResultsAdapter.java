@@ -17,7 +17,7 @@ import com.hotbitmapgg.bilibili.utils.NumberUtil;
 import java.util.List;
 
 /**
- * Designed by guoyx on 16/9/4 12:16
+ * Designed by hcc on 16/9/4 12:16
 
  * <p/>
  * 综合搜索结果Adapter

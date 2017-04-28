@@ -32,7 +32,7 @@ import com.hotbitmapgg.bilibili.utils.ToastUtil;
 import butterknife.BindView;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 浏览器界面

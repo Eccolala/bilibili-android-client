@@ -8,7 +8,7 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * SP缓存工具类

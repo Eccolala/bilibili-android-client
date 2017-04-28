@@ -38,7 +38,7 @@ import rx.schedulers.Schedulers;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 直播播放界面

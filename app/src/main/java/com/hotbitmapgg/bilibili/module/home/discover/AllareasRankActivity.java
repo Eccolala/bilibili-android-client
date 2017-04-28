@@ -20,7 +20,7 @@ import com.hotbitmapgg.ohmybilibili.R;
 import butterknife.BindView;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 全区排行榜界面

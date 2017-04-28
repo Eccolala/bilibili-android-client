@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/13 16:18
+ * Designed by hcc on 2016/10/13 16:18
 
  * <p>
  * 用户收藏夹adapter

@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Designed by guoyx on 2016/10/14 11:46
+ * Designed by hcc on 2016/10/14 11:46
 
  * <p>
  * 用户详情界面的直播状态模型类

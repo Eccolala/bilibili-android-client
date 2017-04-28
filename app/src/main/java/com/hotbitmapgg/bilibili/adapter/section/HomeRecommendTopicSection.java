@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/8/27 20:19
+ * Designed by hcc on 16/8/27 20:19
 
  * <p/>
  * 首页推荐界面话题section

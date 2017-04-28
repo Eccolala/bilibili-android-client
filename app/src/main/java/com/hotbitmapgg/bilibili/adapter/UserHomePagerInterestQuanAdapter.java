@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/12 20:02
+ * Designed by hcc on 2016/10/12 20:02
 
  * <p>
  * 用户详情主页圈子adapter

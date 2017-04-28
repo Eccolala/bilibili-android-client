@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/12 19:08
+ * Designed by hcc on 2016/10/12 19:08
 
  * <p>
  * 用户详情追番adapter

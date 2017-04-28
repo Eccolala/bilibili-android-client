@@ -16,7 +16,7 @@ import com.hotbitmapgg.ohmybilibili.R;
 import java.util.List;
 
 /**
- * Designed by guoyx on 16/8/4 14:12
+ * Designed by hcc on 16/8/4 14:12
 
  * <p/>
  * 全区排行榜adapter

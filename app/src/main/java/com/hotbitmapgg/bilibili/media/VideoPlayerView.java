@@ -32,7 +32,7 @@ import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 import tv.danmaku.ijk.media.player.pragma.DebugLog;
 
 /**
- * Designed by guoyx on 16/8/31 19:50
+ * Designed by hcc on 16/8/31 19:50
 
  * <p/>
  * 自定义VideoView

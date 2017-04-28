@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/11/1 20:34
+ * Designed by hcc on 2016/11/1 20:34
 
  * <p>
  * 番剧详情分季版本adapter

@@ -14,7 +14,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Designed by guoyx on 16/8/4 14:12
+ * Designed by hcc on 16/8/4 14:12
 
  * <p/>
  * 主界面Fragment模块Adapter

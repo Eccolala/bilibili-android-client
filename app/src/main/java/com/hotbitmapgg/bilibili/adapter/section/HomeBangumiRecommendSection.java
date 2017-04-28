@@ -19,7 +19,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Designed by guoyx on 2016/10/14 20:02
+ * Designed by hcc on 2016/10/14 20:02
 
  * <p>
  * 首页番剧推荐Section

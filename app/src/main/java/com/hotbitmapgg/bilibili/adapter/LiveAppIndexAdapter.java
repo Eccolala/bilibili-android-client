@@ -29,7 +29,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/8/4 14:12
+ * Designed by hcc on 16/8/4 14:12
 
  * <p/>
  * 首页直播adapter

@@ -35,7 +35,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- * Designed by guoyx on 2016/10/12 13:29
+ * Designed by hcc on 2016/10/12 13:29
 
  * <p>
  * 用户详情界面的主页

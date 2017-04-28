@@ -23,7 +23,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 2016/9/25 15:41
+ * Designed by hcc on 2016/9/25 15:41
 
  * <p>
  * 新番连载全部界面

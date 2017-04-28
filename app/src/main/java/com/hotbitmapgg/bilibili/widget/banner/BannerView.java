@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 自定义Banner无限轮播控件

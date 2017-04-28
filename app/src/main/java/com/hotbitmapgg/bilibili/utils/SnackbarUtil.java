@@ -4,7 +4,7 @@ import android.support.design.widget.Snackbar;
 import android.view.View;
 
 /**
- * Designed by guoyx on 16/8/20 12:18
+ * Designed by hcc on 16/8/20 12:18
 
  * <p/>
  * 一个简单的SnackBar工具类

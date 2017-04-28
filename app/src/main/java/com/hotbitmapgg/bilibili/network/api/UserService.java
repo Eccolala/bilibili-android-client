@@ -10,7 +10,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 2016/10/12 22:40
+ * Designed by hcc on 2016/10/12 22:40
 
  * <p>
  * 用户相关api

@@ -16,7 +16,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Designed by guoyx on 16/9/18 13:41
+ * Designed by hcc on 16/9/18 13:41
 
  * <p>
  * 沉浸式状态栏工具类

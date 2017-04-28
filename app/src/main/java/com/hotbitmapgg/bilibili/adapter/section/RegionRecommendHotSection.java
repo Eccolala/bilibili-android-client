@@ -22,7 +22,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/21 23:28
+ * Designed by hcc on 2016/10/21 23:28
 
  * <p>
  * 分区推荐热门推荐section

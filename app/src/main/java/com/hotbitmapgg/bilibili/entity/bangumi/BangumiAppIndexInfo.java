@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.bangumi;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/11/1 10:41
+ * Designed by hcc on 2016/11/1 10:41
 
  * <p>
  * 首页番剧内容模型类

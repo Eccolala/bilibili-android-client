@@ -14,7 +14,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 16/8/8 21:08
+ * Designed by hcc on 16/8/8 21:08
 
  */
 public interface BiliApiService {

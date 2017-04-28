@@ -7,7 +7,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 16/8/8 20:48
+ * Designed by hcc on 16/8/8 20:48
 
  *
  * 用户个人账号相关api

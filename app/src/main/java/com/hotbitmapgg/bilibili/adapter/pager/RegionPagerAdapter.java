@@ -12,7 +12,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 /**
- * Designed by guoyx on 16/8/4 14:12
+ * Designed by hcc on 16/8/4 14:12
 
  * <p/>
  * 分区界面PagerAdapter

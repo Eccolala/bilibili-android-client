@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Designed by guoyx on 16/9/16 13:14
+ * Designed by hcc on 16/9/16 13:14
 
  * <p/>
  * 主题切换帮助类

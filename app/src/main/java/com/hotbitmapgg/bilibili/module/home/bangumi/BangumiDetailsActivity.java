@@ -54,7 +54,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 16/8/14 17:51
+ * Designed by hcc on 16/8/14 17:51
 
  * <p/>
  * 番剧详情界面

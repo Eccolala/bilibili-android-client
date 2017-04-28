@@ -24,7 +24,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 2016/10/14 13:21
+ * Designed by hcc on 2016/10/14 13:21
 
  * <p>
  * 追番界面

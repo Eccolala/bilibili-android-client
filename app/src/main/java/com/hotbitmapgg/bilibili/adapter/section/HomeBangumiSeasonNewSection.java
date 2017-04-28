@@ -23,7 +23,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Designed by guoyx on 2016/10/14 19:44
+ * Designed by hcc on 2016/10/14 19:44
 
  * <p>
  * 首页番剧分季新番Section

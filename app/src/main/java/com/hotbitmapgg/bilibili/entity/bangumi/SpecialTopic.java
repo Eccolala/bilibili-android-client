@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.bangumi;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Designed by guoyx on 16/8/9 20:48
+ * Designed by hcc on 16/8/9 20:48
 
  * <p/>
  * 专题视频(包括二三次元番剧)

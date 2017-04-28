@@ -1,7 +1,7 @@
 package com.hotbitmapgg.bilibili.utils;
 
 /**
- * Designed by guoyx on 2016/10/13 11:13
+ * Designed by hcc on 2016/10/13 11:13
 
  * <p>
  * 常量工具类

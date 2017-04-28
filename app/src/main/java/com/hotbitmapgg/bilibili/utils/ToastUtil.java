@@ -8,7 +8,7 @@ import android.os.Looper;
 import android.widget.Toast;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * Toast工具类

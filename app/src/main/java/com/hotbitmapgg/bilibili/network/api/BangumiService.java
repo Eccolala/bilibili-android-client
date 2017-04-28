@@ -12,7 +12,7 @@ import retrofit2.http.GET;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 2016/11/1 10:43
+ * Designed by hcc on 2016/11/1 10:43
 
  * <p>
  * 番剧相关api

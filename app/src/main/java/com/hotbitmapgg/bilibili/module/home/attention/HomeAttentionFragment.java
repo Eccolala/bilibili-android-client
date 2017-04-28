@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 /**
- * Designed by guoyx on 16/8/22 21:40
+ * Designed by hcc on 16/8/22 21:40
 
  * <p/>
  * 主界面关注界面

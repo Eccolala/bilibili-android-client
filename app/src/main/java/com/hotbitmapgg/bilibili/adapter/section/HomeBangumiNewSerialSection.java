@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/14 19:29
+ * Designed by hcc on 2016/10/14 19:29
 
  * <p>
  * 首页番剧新番连载Section

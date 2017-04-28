@@ -32,7 +32,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 2016/10/23 12:09
+ * Designed by hcc on 2016/10/23 12:09
 
  * <p>
  * 分区广告界面

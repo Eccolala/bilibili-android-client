@@ -18,7 +18,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 首页直播界面

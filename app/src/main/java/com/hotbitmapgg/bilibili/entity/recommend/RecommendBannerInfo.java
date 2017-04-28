@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.recommend;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/9/24 19:25
+ * Designed by hcc on 2016/9/24 19:25
 
  * <p>
  * 首页Banner推荐

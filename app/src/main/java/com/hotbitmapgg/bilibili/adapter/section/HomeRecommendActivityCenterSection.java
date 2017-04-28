@@ -14,7 +14,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Designed by guoyx on 16/8/27 19:09
+ * Designed by hcc on 16/8/27 19:09
 
  * <p/>
  * 首页推荐界面活动中心section

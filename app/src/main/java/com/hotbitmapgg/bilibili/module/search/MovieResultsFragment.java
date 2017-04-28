@@ -25,7 +25,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Designed by guoyx on 16/9/4 12:26
+ * Designed by hcc on 16/9/4 12:26
 
  * <p/>
  * 影视搜索界面

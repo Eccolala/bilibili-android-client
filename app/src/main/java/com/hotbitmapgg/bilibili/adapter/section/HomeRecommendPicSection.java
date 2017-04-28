@@ -16,7 +16,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Designed by guoyx on 16/8/27 20:19
+ * Designed by hcc on 16/8/27 20:19
 
  * <p/>
  * 首页推荐界面图片周刊section

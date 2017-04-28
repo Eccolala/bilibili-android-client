@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/10/12 22:10
+ * Designed by hcc on 2016/10/12 22:10
 
  * <p>
  * 用户详情投币模型类

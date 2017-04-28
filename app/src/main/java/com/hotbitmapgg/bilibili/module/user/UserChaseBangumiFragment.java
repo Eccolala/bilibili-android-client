@@ -17,7 +17,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Designed by guoyx on 2016/10/12 18:16
+ * Designed by hcc on 2016/10/12 18:16
 
  * <p>
  * 用户详情界面的追番

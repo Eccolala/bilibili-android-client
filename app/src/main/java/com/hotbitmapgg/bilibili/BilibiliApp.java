@@ -12,7 +12,7 @@ import com.hotbitmapgg.ohmybilibili.R;
 import com.squareup.leakcanary.LeakCanary;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
  * <p/>
  * 哔哩哔哩动画App
  */

@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Designed by guoyx on 16/9/20 16:49
+ * Designed by hcc on 16/9/20 16:49
 
  * <p>
  * 常用时间工具类

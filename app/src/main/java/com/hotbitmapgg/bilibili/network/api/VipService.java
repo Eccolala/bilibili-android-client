@@ -6,7 +6,7 @@ import retrofit2.http.GET;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 2016/10/31 23:27
+ * Designed by hcc on 2016/10/31 23:27
 
  * <p>
  * 大会员相关api

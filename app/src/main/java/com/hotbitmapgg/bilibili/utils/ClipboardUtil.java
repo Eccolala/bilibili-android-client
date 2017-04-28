@@ -6,7 +6,7 @@ import android.content.Context;
 import android.os.Build;
 
 /**
- * Designed by guoyx on 2016/10/3 19:01
+ * Designed by hcc on 2016/10/3 19:01
  * <p>
  * 复制剪贴工具类
  */

@@ -9,7 +9,7 @@ import android.view.ViewParent;
 import android.widget.ImageView;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
 
  * <p/>
  * Banner适配器

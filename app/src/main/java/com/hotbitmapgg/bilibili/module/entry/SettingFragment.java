@@ -21,7 +21,7 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 设置与帮助

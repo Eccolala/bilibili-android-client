@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * Designed by guoyx on 16/8/27 11:51
+ * Designed by hcc on 16/8/27 11:51
 
  * <p/>
  * A custom RecyclerView with Sections with custom Titles.

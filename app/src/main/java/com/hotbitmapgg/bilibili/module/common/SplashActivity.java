@@ -16,7 +16,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 启动页界面

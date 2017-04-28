@@ -7,7 +7,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 2016/10/12 19:36
+ * Designed by hcc on 2016/10/12 19:36
 
  */
 

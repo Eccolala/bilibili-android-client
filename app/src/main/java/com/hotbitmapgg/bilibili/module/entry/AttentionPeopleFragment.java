@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 关注的人

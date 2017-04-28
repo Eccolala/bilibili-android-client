@@ -23,7 +23,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 /**
- * Designed by guoyx on 2016/10/12 13:30
+ * Designed by hcc on 2016/10/12 13:30
 
  * <p>
  * 用户详情界面的投稿

@@ -20,7 +20,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.helper.HttpConnection;
 
 /**
- * Designed by guoyx on 16/8/31 19:50
+ * Designed by hcc on 16/8/31 19:50
 
  * <p/>
  * 视频弹幕下载工具类

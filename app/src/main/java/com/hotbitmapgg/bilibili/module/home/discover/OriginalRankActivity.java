@@ -16,7 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * Designed by guoyx on 16/9/12 20:20
+ * Designed by hcc on 16/9/12 20:20
 
  * <p/>
  * 原创排行榜界面

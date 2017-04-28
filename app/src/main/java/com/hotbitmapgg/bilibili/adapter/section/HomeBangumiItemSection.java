@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/14 19:15
+ * Designed by hcc on 2016/10/14 19:15
 
  * <p>
  * 首页番剧顶部追番，放送表，索引条目Section

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
 
  * <p/>
  * RecyclerView添加HeadAndFoot辅助类

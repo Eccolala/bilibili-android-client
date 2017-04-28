@@ -39,7 +39,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * 游戏中心界面

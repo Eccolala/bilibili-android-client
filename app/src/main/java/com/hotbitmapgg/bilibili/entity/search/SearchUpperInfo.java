@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/10/24 21:15
+ * Designed by hcc on 2016/10/24 21:15
 
  * <p>
  * up主搜索模型类

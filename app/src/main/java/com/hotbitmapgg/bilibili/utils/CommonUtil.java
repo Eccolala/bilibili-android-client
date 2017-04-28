@@ -9,7 +9,7 @@ import android.os.Environment;
 import android.os.StatFs;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 通用工具类

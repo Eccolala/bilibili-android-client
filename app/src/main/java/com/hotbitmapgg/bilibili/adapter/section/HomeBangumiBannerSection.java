@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Designed by guoyx on 16/8/27 14:06
+ * Designed by hcc on 16/8/27 14:06
 
  * <p/>
  * 首页番剧界面轮播图Section

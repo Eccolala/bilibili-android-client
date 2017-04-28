@@ -32,7 +32,7 @@ import com.hotbitmapgg.bilibili.media.callback.VideoBackListener;
 import java.util.Locale;
 
 /**
- * Designed by guoyx on 16/8/31 19:50
+ * Designed by hcc on 16/8/31 19:50
 
  * <p/>
  * 播放器控制器

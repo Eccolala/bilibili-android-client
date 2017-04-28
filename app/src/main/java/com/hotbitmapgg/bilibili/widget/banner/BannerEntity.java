@@ -1,7 +1,7 @@
 package com.hotbitmapgg.bilibili.widget.banner;
 
 /**
- * Designed by guoyx on 16/8/24 21:37
+ * Designed by hcc on 16/8/24 21:37
 
  * <p>
  * Banner模型类

@@ -34,7 +34,7 @@ import com.hotbitmapgg.ohmybilibili.R;
 import static com.hotbitmapgg.ohmybilibili.R.id.user_avatar_view;
 
 /**
- * Designed by guoyx on 16/8/7 14:12
+ * Designed by hcc on 16/8/7 14:12
 
  * <p/>
  * MainActivity

@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/9/14 21:37
+ * Designed by hcc on 16/9/14 21:37
 
  */
 @SuppressLint("DrawAllocation")

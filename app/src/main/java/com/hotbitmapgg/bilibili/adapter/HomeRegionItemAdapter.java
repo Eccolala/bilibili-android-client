@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/10/23 10:23
+ * Designed by hcc on 2016/10/23 10:23
 
  * <p>
  * 首页分区adapter

@@ -5,7 +5,7 @@ import com.hotbitmapgg.bilibili.entity.user.UserDetailsInfo;
 import android.util.Log;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 根据B站返回的数据 个人参数由于返回限制

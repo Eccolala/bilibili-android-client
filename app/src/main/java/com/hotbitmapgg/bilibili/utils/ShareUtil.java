@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 
 /**
- * Designed by guoyx on 16/6/25 18:05
+ * Designed by hcc on 16/6/25 18:05
 
  * <p>
  * 分享工具类

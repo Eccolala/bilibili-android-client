@@ -19,7 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 2016/11/1 12:52
+ * Designed by hcc on 2016/11/1 12:52
 
  * <p>
  * 分季新番Section

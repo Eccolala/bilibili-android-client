@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.user;
 import java.util.List;
 
 /**
- * Designed by guoyx on 16/8/22 20:48
+ * Designed by hcc on 16/8/22 20:48
 
  * <p/>
  * 用户详情模型类

@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.video;
 import java.util.List;
 
 /**
- * Designed by guoyx on 16/8/30 19:50
+ * Designed by hcc on 16/8/30 19:50
 
  * <p/>
  * B站高清视频

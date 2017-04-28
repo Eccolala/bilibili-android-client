@@ -37,7 +37,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
- * Designed by guoyx on 16/8/30 19:50
+ * Designed by hcc on 16/8/30 19:50
 
  * <p/>
  * 视频播放界面

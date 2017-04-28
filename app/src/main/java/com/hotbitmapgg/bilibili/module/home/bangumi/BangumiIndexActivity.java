@@ -24,7 +24,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 /**
- * Designed by guoyx on 16/8/4 14:12
+ * Designed by hcc on 16/8/4 14:12
 
  * <p/>
  * 番剧索引界面

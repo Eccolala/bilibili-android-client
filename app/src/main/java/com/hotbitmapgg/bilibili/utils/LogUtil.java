@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.utils;
 import android.util.Log;
 
 /**
- * Designed by guoyx on 16/8/4 21:18
+ * Designed by hcc on 16/8/4 21:18
 
  * <p/>
  * 日志打印工具类

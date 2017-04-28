@@ -7,7 +7,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Designed by guoyx on 2016/10/13 15:39
+ * Designed by hcc on 2016/10/13 15:39
 
  * <p>
  * 用户收藏夹模型类

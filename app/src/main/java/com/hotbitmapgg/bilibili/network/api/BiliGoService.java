@@ -9,7 +9,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Designed by guoyx on 16/8/30 19:52
+ * Designed by hcc on 16/8/30 19:52
 
  * <p>
  * bilibili-go相关api

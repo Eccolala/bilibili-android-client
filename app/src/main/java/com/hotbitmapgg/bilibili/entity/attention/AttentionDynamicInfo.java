@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.attention;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/9/28 19:49
+ * Designed by hcc on 2016/9/28 19:49
 
  * <p>
  * 关注动态模型类

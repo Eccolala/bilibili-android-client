@@ -16,7 +16,7 @@ import com.hotbitmapgg.bilibili.entity.search.SearchArchiveInfo;
 import java.util.List;
 
 /**
- * Designed by guoyx on 16/8/29 21:18
+ * Designed by hcc on 16/8/29 21:18
 
  * <p/>
  * 综合搜索头部番剧Adapter

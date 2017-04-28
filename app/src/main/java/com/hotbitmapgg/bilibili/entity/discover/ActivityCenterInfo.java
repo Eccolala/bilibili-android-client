@@ -3,7 +3,7 @@ package com.hotbitmapgg.bilibili.entity.discover;
 import java.util.List;
 
 /**
- * Designed by guoyx on 2016/10/3 19:03
+ * Designed by hcc on 2016/10/3 19:03
 
  * <p>
  * 活动中心模型类

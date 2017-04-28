@@ -17,7 +17,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Designed by guoyx on 16/8/7 21:18
+ * Designed by hcc on 16/8/7 21:18
 
  * <p/>
  * Activity基类

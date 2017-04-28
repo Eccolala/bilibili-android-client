@@ -16,8 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/13 19:08
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/13 19:08
+
  * <p>
  * 追番adapter
  */

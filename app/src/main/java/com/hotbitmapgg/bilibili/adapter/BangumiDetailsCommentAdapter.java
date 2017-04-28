@@ -18,8 +18,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/11/2 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/11/2 14:12
+
  * <p/>
  * 番剧详情番剧评论adapter
  */

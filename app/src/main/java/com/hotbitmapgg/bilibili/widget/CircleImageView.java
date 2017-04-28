@@ -23,8 +23,8 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 
 /**
- * Created by hcc on 16/8/7 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 21:18
+
  * <p/>
  * 圆形头像
  */

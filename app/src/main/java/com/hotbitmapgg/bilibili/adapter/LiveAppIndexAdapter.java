@@ -29,8 +29,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/4 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 14:12
+
  * <p/>
  * 首页直播adapter
  */

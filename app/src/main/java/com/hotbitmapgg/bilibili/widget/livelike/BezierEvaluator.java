@@ -4,8 +4,8 @@ import android.animation.TypeEvaluator;
 import android.graphics.PointF;
 
 /**
- * Created by hcc on 16/9/14 21:37
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/14 21:37
+
  * <p/>
  * 贝塞尔曲线运动轨迹估值器
  */

@@ -15,8 +15,8 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Created by hcc on 2016/10/12 18:13
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/12 18:13
+
  * <p>
  * 用户详情界面的收藏夹
  */

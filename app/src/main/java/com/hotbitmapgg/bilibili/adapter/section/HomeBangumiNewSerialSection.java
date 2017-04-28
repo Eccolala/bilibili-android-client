@@ -23,8 +23,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/14 19:29
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/14 19:29
+
  * <p>
  * 首页番剧新番连载Section
  */

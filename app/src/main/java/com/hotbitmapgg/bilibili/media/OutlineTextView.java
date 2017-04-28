@@ -12,8 +12,8 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/9/14 21:37
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/14 21:37
+
  */
 @SuppressLint("DrawAllocation")
 public class OutlineTextView extends TextView {

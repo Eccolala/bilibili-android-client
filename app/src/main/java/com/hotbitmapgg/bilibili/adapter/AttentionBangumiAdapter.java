@@ -16,8 +16,8 @@ import com.hotbitmapgg.ohmybilibili.R;
 import java.util.List;
 
 /**
- * Created by hcc on 2016/9/28 20:26
- * 100332338@qq.com
+ * Designed by guoyx on 2016/9/28 20:26
+
  * <p>
  * 关注界面番剧Adapter
  */

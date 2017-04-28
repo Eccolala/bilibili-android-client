@@ -1,5 +1,6 @@
-package com.hotbitmapgg.bilibili.module.common.Auth;
+package com.hotbitmapgg.bilibili.module.Auth;
 
+import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.OnClick;
 import com.hotbitmapgg.bilibili.base.RxBaseActivity;
@@ -21,8 +22,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 登录界面
  */
@@ -46,6 +47,8 @@ public class LoginActivity extends RxBaseActivity {
     @BindView(R.id.et_password)
     EditText et_password;
 
+    @BindView(R.id.txt_exception_login)
+    TextView et_exception;
 
     @Override
     public int getLayoutId() {
@@ -113,7 +116,8 @@ public class LoginActivity extends RxBaseActivity {
     void attemptSign(){
         boolean isNetConnected = CommonUtil.isNetworkAvailable(this);
         if (!isNetConnected) {
-            ToastUtil.ShortToast("当前网络不可用,请检查网络设置");
+            et_exception.setVisibility(View.VISIBLE);
+            et_exception.setText("当前网络不可用");
             return;
         }
         sign();
@@ -163,6 +167,9 @@ public class LoginActivity extends RxBaseActivity {
         et_username.setFocusable(true);
         et_username.setFocusableInTouchMode(true);
         et_username.requestFocus();
+        et_username.setError(null);
+        et_password.setError(null);
+
     }
 
 

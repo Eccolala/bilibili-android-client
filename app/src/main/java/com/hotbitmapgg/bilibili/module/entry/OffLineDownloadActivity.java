@@ -16,8 +16,8 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 离线缓存
  */

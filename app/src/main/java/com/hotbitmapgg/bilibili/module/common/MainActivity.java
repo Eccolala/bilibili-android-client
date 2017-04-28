@@ -34,8 +34,8 @@ import com.hotbitmapgg.ohmybilibili.R;
 import static com.hotbitmapgg.ohmybilibili.R.id.user_avatar_view;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * MainActivity
  */

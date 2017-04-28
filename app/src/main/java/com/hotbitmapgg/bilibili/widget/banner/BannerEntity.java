@@ -1,8 +1,8 @@
 package com.hotbitmapgg.bilibili.widget.banner;
 
 /**
- * Created by hcc on 16/8/24 21:37
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/24 21:37
+
  * <p>
  * Banner模型类
  */

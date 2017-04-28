@@ -7,8 +7,8 @@ import java.util.Date;
 import android.annotation.SuppressLint;
 
 /**
- * Created by hcc on 2016/10/11 16:30
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/11 16:30
+
  * <p>
  * 时间工具类
  */

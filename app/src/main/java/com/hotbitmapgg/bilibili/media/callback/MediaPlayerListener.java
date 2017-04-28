@@ -1,8 +1,8 @@
 package com.hotbitmapgg.bilibili.media.callback;
 
 /**
- * Created by hcc on 16/8/31 21:42
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/31 21:42
+
  * <p/>
  * 视频控制回调接口
  */

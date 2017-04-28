@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.utils;
 import android.util.Log;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * 日志打印工具类
  */

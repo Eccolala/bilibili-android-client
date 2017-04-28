@@ -27,8 +27,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * 视频简介界面
  */

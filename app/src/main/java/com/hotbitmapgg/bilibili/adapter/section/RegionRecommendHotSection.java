@@ -22,8 +22,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/21 23:28
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/21 23:28
+
  * <p>
  * 分区推荐热门推荐section
  */

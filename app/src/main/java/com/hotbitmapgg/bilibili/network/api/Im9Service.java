@@ -7,8 +7,8 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Created by hcc on 2016/10/12 19:36
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/12 19:36
+
  */
 
 public interface Im9Service {

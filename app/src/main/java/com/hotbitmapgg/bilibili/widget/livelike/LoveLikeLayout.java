@@ -22,8 +22,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 /**
- * Created by hcc on 16/9/14 21:37
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/14 21:37
+
  * <p/>
  * 直播送礼物特效自定义控件
  */

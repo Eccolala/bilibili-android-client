@@ -16,8 +16,8 @@ import com.hotbitmapgg.ohmybilibili.R;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/27 19:19
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/27 19:19
+
  * <p/>
  * 活动中心横向滑动RecyclerAdapter
  */

@@ -16,8 +16,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 /**
- * Created by hcc on 2016/10/13 15:54
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/13 15:54
+
  * <p>
  * 自定义收藏夹布局控件
  */

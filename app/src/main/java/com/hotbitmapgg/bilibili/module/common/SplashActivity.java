@@ -2,7 +2,7 @@ package com.hotbitmapgg.bilibili.module.common;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.hotbitmapgg.bilibili.module.common.Auth.LoginActivity;
+import com.hotbitmapgg.bilibili.module.Auth.LoginActivity;
 import com.hotbitmapgg.bilibili.utils.ConstantUtil;
 import com.hotbitmapgg.bilibili.utils.PreferenceUtil;
 import com.hotbitmapgg.bilibili.utils.SystemUiVisibilityUtil;
@@ -16,8 +16,8 @@ import android.content.Intent;
 import android.os.Bundle;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 启动页界面
  */

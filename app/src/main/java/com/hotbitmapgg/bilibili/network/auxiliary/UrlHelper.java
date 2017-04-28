@@ -5,8 +5,8 @@ import com.hotbitmapgg.bilibili.entity.user.UserDetailsInfo;
 import android.util.Log;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * 根据B站返回的数据 个人参数由于返回限制
  * 需要进行特殊处理，如视频封面

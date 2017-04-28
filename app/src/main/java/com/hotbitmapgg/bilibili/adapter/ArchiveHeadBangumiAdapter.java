@@ -16,8 +16,8 @@ import com.hotbitmapgg.bilibili.entity.search.SearchArchiveInfo;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/29 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/29 21:18
+
  * <p/>
  * 综合搜索头部番剧Adapter
  */

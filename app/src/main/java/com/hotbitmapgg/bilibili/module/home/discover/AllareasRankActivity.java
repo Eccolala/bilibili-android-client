@@ -20,8 +20,8 @@ import com.hotbitmapgg.ohmybilibili.R;
 import butterknife.BindView;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 全区排行榜界面
  */

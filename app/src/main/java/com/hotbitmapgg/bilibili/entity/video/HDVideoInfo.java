@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.video;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/30 19:50
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/30 19:50
+
  * <p/>
  * B站高清视频
  */

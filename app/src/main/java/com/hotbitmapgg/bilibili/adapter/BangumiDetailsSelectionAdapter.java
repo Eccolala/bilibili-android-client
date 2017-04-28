@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/1 17:12
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/1 17:12
+
  * <p>
  * 番剧选集adapter
  */

@@ -4,8 +4,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by hcc on 16/8/27 11:51
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/27 11:51
+
  * <p/>
  * Abstract Section used by SectionedRecyclerViewAdapter.
  */

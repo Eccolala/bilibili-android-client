@@ -7,8 +7,8 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by hcc on 2016/10/12 22:39
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/12 22:39
+
  * <p>
  * 用户详情所玩游戏模型类
  */

@@ -15,8 +15,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/3 16:08
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/3 16:08
+
  * <p>
  * 活动中心adapter
  */

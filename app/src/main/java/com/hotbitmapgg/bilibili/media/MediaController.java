@@ -32,8 +32,8 @@ import com.hotbitmapgg.bilibili.media.callback.VideoBackListener;
 import java.util.Locale;
 
 /**
- * Created by hcc on 16/8/31 19:50
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/31 19:50
+
  * <p/>
  * 播放器控制器
  */

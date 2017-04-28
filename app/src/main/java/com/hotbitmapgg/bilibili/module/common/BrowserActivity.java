@@ -32,8 +32,8 @@ import com.hotbitmapgg.bilibili.utils.ToastUtil;
 import butterknife.BindView;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 浏览器界面
  */

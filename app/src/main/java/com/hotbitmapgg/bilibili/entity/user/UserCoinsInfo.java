@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by hcc on 2016/10/12 22:10
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/12 22:10
+
  * <p>
  * 用户详情投币模型类
  */

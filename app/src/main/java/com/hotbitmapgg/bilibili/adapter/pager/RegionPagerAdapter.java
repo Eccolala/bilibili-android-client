@@ -12,8 +12,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 /**
- * Created by hcc on 16/8/4 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 14:12
+
  * <p/>
  * 分区界面PagerAdapter
  */

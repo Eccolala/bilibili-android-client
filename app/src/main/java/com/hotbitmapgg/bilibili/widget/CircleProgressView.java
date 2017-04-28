@@ -18,8 +18,8 @@ import android.view.View;
 import com.hotbitmapgg.ohmybilibili.R;
 
 /**
- * Created by hcc on 16/8/7 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 21:18
+
  * <p/>
  * Material design的ProgressBar
  */

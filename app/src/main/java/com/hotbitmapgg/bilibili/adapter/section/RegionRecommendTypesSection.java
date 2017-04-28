@@ -13,8 +13,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by hcc on 2016/10/21 21:15
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/21 21:15
+
  * <p>
  * 分区推荐分类section
  */

@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/13 16:18
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/13 16:18
+
  * <p>
  * 用户收藏夹adapter
  */

@@ -5,7 +5,7 @@ import butterknife.OnClick;
 import com.hotbitmapgg.bilibili.base.RxLazyFragment;
 import com.hotbitmapgg.bilibili.module.common.AppIntroduceActivity;
 import com.hotbitmapgg.bilibili.module.common.HotBitmapGGInfoActivity;
-import com.hotbitmapgg.bilibili.module.common.Auth.LoginActivity;
+import com.hotbitmapgg.bilibili.module.Auth.LoginActivity;
 import com.hotbitmapgg.bilibili.module.common.MainActivity;
 import com.hotbitmapgg.bilibili.utils.ConstantUtil;
 import com.hotbitmapgg.bilibili.utils.PreferenceUtil;
@@ -21,8 +21,8 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/7 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/7 14:12
+
  * <p/>
  * 设置与帮助
  */

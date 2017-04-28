@@ -158,4 +158,14 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/txt_exception_login"
+        android:textColor="@color/red_dark"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/normal_txt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_long_margin"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
 </LinearLayout>

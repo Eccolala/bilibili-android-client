@@ -13,8 +13,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 /**
- * Created by hcc on 16/9/16 13:14
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/16 13:14
+
  * <p/>
  * 主题切换选择对话框
  */

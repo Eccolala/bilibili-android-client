@@ -20,8 +20,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/25 20:52
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/25 20:52
+
  * <p/>
  * 番剧放送表section
  */

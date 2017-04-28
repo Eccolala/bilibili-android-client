@@ -18,7 +18,7 @@
     <string name="sina_weibo_link">新浪微博:http://m.weibo.cn/users/3223089177/qq</string>
     <string name="jianshu_link">简书:http://www.jianshu.com/notebooks/5181955/latest</string>
     <string name="add_follow">+关注</string>
-    <string name="login_hint_account">请输入您的账号</string>
+    <string name="login_hint_account">请输入您的手机号</string>
     <string name="sign_hint_account">请输入您的手机号</string>
     <string name="sign_hint_email">请输入您的邮箱账号</string>
     <string name="login_hint_password">请输入您的密码</string>
@@ -95,14 +95,12 @@
     <string name="ta_quanzi">TA的圈子</string>
     <string name="ta_play_game">TA玩的游戏</string>
 
-
     <string name="video_init">初始化播放器…</string>
     <string name="video_loading">加载中…</string>
     <string name="video_error_title">Cannot play video</string>
     <string name="video_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming tothis device.</string>
     <string name="video_error_text_unknown">Sorry, this video cannot be played.</string>
     <string name="video_error_button">OK</string>
-
 
     <!-- Navigation Items -->
     <string name="item_home">主页</string>
@@ -116,7 +114,6 @@
     <string name="item_app">应用推荐</string>
     <string name="item_vip">我的大会员</string>
 
-
     <!--App 介绍-->
     <string name="about_user_head_layout">硬币: 47</string>
     <string name="about_introduce">「哔哩哔哩」</string>
@@ -124,7 +121,6 @@
     <string name="about_developers">关于我</string>
     <string name="about">关于哔哩哔哩</string>
     <string name="about_version">V1.0</string>
-
 
     <!--哔哩哔哩-->
     <string name="home_tab_more">更多</string>

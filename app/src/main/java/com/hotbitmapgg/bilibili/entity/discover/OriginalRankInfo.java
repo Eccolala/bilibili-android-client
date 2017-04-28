@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.discover;
 import java.util.List;
 
 /**
- * Created by hcc on 2016/9/22 18:44
- * 100332338@qq.com
+ * Designed by guoyx on 2016/9/22 18:44
+
  * <p>
  * 原创排行榜模型类
  */

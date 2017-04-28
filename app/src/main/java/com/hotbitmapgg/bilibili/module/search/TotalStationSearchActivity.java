@@ -39,8 +39,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/29 19:58
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/29 19:58
+
  * <p/>
  * 全站搜索界面
  */

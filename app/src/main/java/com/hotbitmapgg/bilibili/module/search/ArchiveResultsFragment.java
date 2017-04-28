@@ -24,8 +24,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Created by hcc on 16/9/4 12:10
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/4 12:10
+
  * <p/>
  * 综合搜索结果界面
  */

@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.bangumi;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/22 21:03
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/22 21:03
+
  * <p/>
  * 番剧详情模型类
  */

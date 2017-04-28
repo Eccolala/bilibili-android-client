@@ -9,8 +9,8 @@ import android.os.Environment;
 import android.os.StatFs;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * 通用工具类
  */

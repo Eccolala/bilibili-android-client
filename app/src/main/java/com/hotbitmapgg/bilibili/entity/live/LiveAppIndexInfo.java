@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.live;
 import java.util.List;
 
 /**
- * Created by hcc on 2016/10/19 18:31
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/19 18:31
+
  * <p>
  * 直播模型类
  */

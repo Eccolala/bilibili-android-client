@@ -23,8 +23,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 /**
- * Created by hcc on 2016/10/3 15:47
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/3 15:47
+
  * <p>
  * 话题中心界面
  */

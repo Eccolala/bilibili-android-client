@@ -8,8 +8,8 @@ import android.os.Looper;
 import android.widget.Toast;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * Toast工具类
  */

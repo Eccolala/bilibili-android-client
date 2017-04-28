@@ -24,8 +24,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Created by hcc on 16/8/29 21:08
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/29 21:08
+
  * <p/>
  * 番剧搜索内容列表界面
  */

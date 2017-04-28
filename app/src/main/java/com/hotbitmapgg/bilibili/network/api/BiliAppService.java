@@ -16,8 +16,8 @@ import retrofit2.http.Query;
 import rx.Observable;
 
 /**
- * Created by hcc on 16/8/4 12:03
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 12:03
+
  */
 public interface BiliAppService {
 

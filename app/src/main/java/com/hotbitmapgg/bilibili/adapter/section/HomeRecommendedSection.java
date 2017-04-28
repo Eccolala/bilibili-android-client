@@ -39,8 +39,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by hcc on 16/8/27 11:51
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/27 11:51
+
  * <p/>
  * 首页推荐界面Section
  */

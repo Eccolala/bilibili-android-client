@@ -27,8 +27,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 /**
- * Created by hcc on 16/8/22 21:40
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/22 21:40
+
  * <p/>
  * 主界面关注界面
  */

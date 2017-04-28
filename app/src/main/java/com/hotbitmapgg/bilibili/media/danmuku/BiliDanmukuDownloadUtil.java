@@ -20,8 +20,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.helper.HttpConnection;
 
 /**
- * Created by hcc on 16/8/31 19:50
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/31 19:50
+
  * <p/>
  * 视频弹幕下载工具类
  */

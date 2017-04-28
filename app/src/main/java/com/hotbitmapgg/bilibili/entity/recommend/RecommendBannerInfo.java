@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.recommend;
 import java.util.List;
 
 /**
- * Created by hcc on 2016/9/24 19:25
- * 100332338@qq.com
+ * Designed by guoyx on 2016/9/24 19:25
+
  * <p>
  * 首页Banner推荐
  */

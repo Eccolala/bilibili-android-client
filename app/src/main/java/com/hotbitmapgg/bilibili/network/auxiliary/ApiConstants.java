@@ -1,8 +1,8 @@
 package com.hotbitmapgg.bilibili.network.auxiliary;
 
 /**
- * Created by hcc on 2016/11/20 21:32
- * 100332338@qq.com
+ * Designed by guoyx on 2016/11/20 21:32
+
  * <p>
  * API常量类
  */

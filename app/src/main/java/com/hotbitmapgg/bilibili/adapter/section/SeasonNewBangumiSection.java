@@ -19,8 +19,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/11/1 12:52
- * 100332338@qq.com
+ * Designed by guoyx on 2016/11/1 12:52
+
  * <p>
  * 分季新番Section
  */

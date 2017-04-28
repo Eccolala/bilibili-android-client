@@ -36,8 +36,8 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by hcc on 16/8/4 21:18
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 21:18
+
  * <p/>
  * 专题详情界面
  */

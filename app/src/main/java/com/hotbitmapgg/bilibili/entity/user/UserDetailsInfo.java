@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.entity.user;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/22 20:48
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/22 20:48
+
  * <p/>
  * 用户详情模型类
  */

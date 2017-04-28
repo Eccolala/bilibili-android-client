@@ -18,8 +18,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 16/8/27 20:19
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/27 20:19
+
  * <p/>
  * 首页推荐界面话题section
  */

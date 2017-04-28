@@ -1,8 +1,8 @@
 package com.hotbitmapgg.bilibili.utils;
 
 /**
- * Created by hcc on 2016/10/11 14:35
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/11 14:35
+
  */
 
 public class NumberUtil {

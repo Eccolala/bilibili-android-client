@@ -6,8 +6,8 @@ import java.util.Calendar;
 import android.annotation.SuppressLint;
 
 /**
- * Created by hcc on 2016/11/1 15:34
- * 100332338@qq.com
+ * Designed by guoyx on 2016/11/1 15:34
+
  * <p>
  * 日期时间转星期工具类
  */

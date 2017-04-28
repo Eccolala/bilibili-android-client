@@ -20,8 +20,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Created by hcc on 16/8/11 20:23
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/11 20:23
+
  * <p/>
  * 全区排行榜界面
  */

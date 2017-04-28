@@ -19,8 +19,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
- * Created by hcc on 2016/10/22 01:46
- * 100332338@qq.com
+ * Designed by guoyx on 2016/10/22 01:46
+
  * <p>
  * 分区详情最新视频section
  */

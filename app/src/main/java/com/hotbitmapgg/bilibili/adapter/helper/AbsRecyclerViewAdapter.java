@@ -9,8 +9,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by hcc on 16/8/4 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 14:12
+
  * <p/>
  * RecycleViewAdapter基类
  */

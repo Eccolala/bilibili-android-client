@@ -16,8 +16,8 @@ import com.hotbitmapgg.ohmybilibili.R;
 import java.util.List;
 
 /**
- * Created by hcc on 16/8/4 14:12
- * 100332338@qq.com
+ * Designed by guoyx on 16/8/4 14:12
+
  * <p/>
  * 全区排行榜adapter
  */

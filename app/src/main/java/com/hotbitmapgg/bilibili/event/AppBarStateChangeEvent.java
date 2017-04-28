@@ -3,8 +3,8 @@ package com.hotbitmapgg.bilibili.event;
 import android.support.design.widget.AppBarLayout;
 
 /**
- * Created by hcc on 16/9/20 05:32
- * 100332338@qq.com
+ * Designed by guoyx on 16/9/20 05:32
+
  * <p>
  * 监听CollapsingToolbarLayout的折叠状态
  */

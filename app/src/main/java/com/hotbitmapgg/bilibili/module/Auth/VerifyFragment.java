@@ -12,9 +12,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
+import com.bumptech.glide.Glide;
+import com.hotbitmapgg.bilibili.network.auxiliary.ApiConstants;
 import com.hotbitmapgg.ohmybilibili.R;
 
 /**
@@ -25,7 +29,12 @@ public class VerifyFragment extends DialogFragment {
     @BindView(R.id.pg_loading)
     ProgressBar loading;
 
+    @BindView(R.id.iv_verify)
+    ImageView codeView;
+
     private Context context;
+
+    private int index = 1;
 
 
     public VerifyFragment() {
@@ -36,8 +45,22 @@ public class VerifyFragment extends DialogFragment {
     @Override public void onStart() {
         super.onStart();
         final AlertDialog dialog = (AlertDialog) getDialog();
+        showProgress(true);
+        loadVerifyPic(index);
         final Button confirm = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
         confirm.setOnClickListener(v -> confirmCode());
+    }
+
+
+    @OnClick(R.id.btn_next)
+    void nextPic() {
+        index++;
+        if (index > 15) {
+            index = 1;
+        }
+        showProgress(true);
+        loadVerifyPic(index);
+
     }
 
 
@@ -53,7 +76,7 @@ public class VerifyFragment extends DialogFragment {
         return new AlertDialog.Builder(context)
             .setView(onCreateDialogContentView(savedInstanceState))
             .setTitle("输入验证码")
-            .setPositiveButton(android.R.string.yes, null)
+            .setPositiveButton("验证", null)
             .setNegativeButton(android.R.string.cancel, null)
             .create();
 
@@ -70,9 +93,38 @@ public class VerifyFragment extends DialogFragment {
 
 
     /**
-     *
+     * 确认验证码
      */
-    private void confirmCode(){
+    private void confirmCode() {
+    }
+
+
+    /**
+     * 拼接图片地址
+     */
+    public void loadVerifyPic(int index) {
+        String pic = ApiConstants.VERIFY_BASE_URL + index + ApiConstants.JPG;
+        loadImg(pic);
+    }
+
+
+    /**
+     * 具体加载图片逻辑
+     */
+    private void loadImg(String pic) {
+        Glide.with(context)
+            .load(pic)
+            .centerCrop()
+            .override(80,40)
+            .into(codeView);
+        showProgress(false);
+    }
+
+
+    /**
+     * 网络不好时显示 text
+     */
+    private void poorNetWork() {
 
     }
 

@@ -11,7 +11,7 @@ import rx.Observable;
 /**
  * Designed by hcc on 16/8/30 19:52
 
- * <p>
+ *
  * bilibili-go相关api
  */
 public interface BiliGoService {

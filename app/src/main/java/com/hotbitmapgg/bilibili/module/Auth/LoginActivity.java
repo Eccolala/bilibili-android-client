@@ -1,5 +1,14 @@
 package com.hotbitmapgg.bilibili.module.Auth;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -11,19 +20,9 @@ import com.hotbitmapgg.bilibili.utils.PreferenceUtil;
 import com.hotbitmapgg.bilibili.utils.ToastUtil;
 import com.hotbitmapgg.ohmybilibili.R;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
-
 /**
  * Designed by hcc on 16/8/7 14:12
-
+ *
  * <p/>
  * 登录界面
  */
@@ -49,6 +48,7 @@ public class LoginActivity extends RxBaseActivity {
 
     @BindView(R.id.txt_exception_login)
     TextView et_exception;
+
 
     @Override
     public int getLayoutId() {
@@ -112,12 +112,12 @@ public class LoginActivity extends RxBaseActivity {
         mToolbar.setNavigationOnClickListener(v -> finish());
     }
 
+
     @OnClick(R.id.btn_sign)
-    void attemptSign(){
+    void attemptSign() {
         boolean isNetConnected = CommonUtil.isNetworkAvailable(this);
         if (!isNetConnected) {
-            et_exception.setVisibility(View.VISIBLE);
-            et_exception.setText("当前网络不可用");
+            showPoorNet();
             return;
         }
         sign();
@@ -125,7 +125,7 @@ public class LoginActivity extends RxBaseActivity {
 
 
     private void sign() {
-        startActivity(new Intent(LoginActivity.this,SignActivity.class));
+        startActivity(new Intent(LoginActivity.this, SignActivity.class));
     }
 
 
@@ -146,7 +146,7 @@ public class LoginActivity extends RxBaseActivity {
 
         boolean isNetConnected = CommonUtil.isNetworkAvailable(this);
         if (!isNetConnected) {
-            ToastUtil.ShortToast("当前网络不可用,请检查网络设置");
+            showPoorNet();
             return;
         }
         reset();
@@ -191,5 +191,14 @@ public class LoginActivity extends RxBaseActivity {
         PreferenceUtil.putBoolean(ConstantUtil.KEY, true);
         startActivity(new Intent(LoginActivity.this, MainActivity.class));
         finish();
+    }
+
+
+    /**
+     * 无网络提示
+     */
+    private void showPoorNet() {
+        et_exception.setVisibility(View.VISIBLE);
+        et_exception.setText("当前网络不可用, 请检查网络设置");
     }
 }

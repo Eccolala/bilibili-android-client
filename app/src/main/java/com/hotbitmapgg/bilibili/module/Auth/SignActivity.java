@@ -116,7 +116,6 @@ public class SignActivity extends RxBaseActivity {
             return;
         }
 
-
         intentSign();
     }
 
@@ -125,11 +124,15 @@ public class SignActivity extends RxBaseActivity {
      * 检查是否有多次获取验证码的行为
      */
     private void intentSign() {
-        if (invalide){
+        if (robot()){
             VerifyFragment.newInstance().show(getSupportFragmentManager(),"VerifyCode");
             return;
         }
+        attemptSign();
     }
+
+
+
 
 
     @OnClick(R.id.delete_username)
@@ -183,5 +186,17 @@ public class SignActivity extends RxBaseActivity {
                 startActivity(new Intent(SignActivity.this,VerifyActivity.class));
             }
         });
+    }
+
+
+    /**
+     * 机器人操作: 如果 5 分钟内请求接口超过三次，显示
+     * @return
+     */
+    private long lastTime;
+
+    private boolean robot() {
+
+        return true;
     }
 }
